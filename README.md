@@ -10,3 +10,19 @@ Why TS:
 
 We cant run the code in production, we need to convert all the code to javascript and then it run. So at the last it is converted to JS.
 
+Terminal Notes:
+    1. npm init (will create package.md)
+    2. creat dir src, and file index.ts
+    3. in Package json file:
+        "scripts": {
+    "test": "ts-node src/index.ts"
+  },
+
+  4. copy folder tsconfig.json from another folder typescrip wale.
+  5. write code in index file.
+  6. To run: npm run test
+  7. if you use another than index.ts file :suppose file name is test.ts:  then write this to terminal to run that file:
+  ts-node src/test.ts
+  7. To clear terminal : clear  
+  
+  

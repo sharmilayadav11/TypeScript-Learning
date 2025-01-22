@@ -1,0 +1,22 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "TypeScript is basically js but with type support.In js there is no type support. So when you declare some variable we need to declare it in beginning, but this was missing in js.  So we can say\" TypeScript is javascript with syntax for type.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharmilayadav11/TypeScript-Learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharmilayadav11/TypeScript-Learning/issues"
+  },
+  "homepage": "https://github.com/sharmilayadav11/TypeScript-Learning#readme",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
